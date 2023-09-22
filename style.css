@@ -1,0 +1,116 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    border: 1px solid gray;
+    margin-top: 3rem;
+    height: auto;
+}
+
+
+
+#header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border: 1px solid gray;
+    margin: 1rem;
+}
+
+#header-container h1{
+    font-weight: 500;
+}
+
+#header-container form{
+    margin: 1rem;
+    width: 90%;
+}
+
+#header-container form input{
+    width: 80%;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+#header-container form  button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+#header-container form  button:hover{
+    background-color: darkgrey;
+    border-radius: 1rem;
+}
+
+#content{
+    width: 90%;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+#content h2{
+    text-align: start;
+    margin-left: 2.5rem;
+    font-weight: 400;
+}
+
+#content ul{
+    align-items: start;
+    justify-content: start;
+    list-style: none;
+    text-align: start;
+    padding-left: 0;
+}
+
+#content ul li{
+    cursor: pointer;
+    width: 90%;
+    border: none;
+    text-align: start;
+    margin-left: 2.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content ul li span:hover{
+    border-left: 10px solid  gray;
+}
+
+#content ul li:hover{
+    background: #ddd;
+}
+
+#content ul li:nth-child(odd){
+    background: #f9f9f9;
+}
+
+#content ul li button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.1rem;
+}
+
+#content ul li button:hover{
+    background-color: darkgrey;
+}
+
+
+
+
